@@ -1,0 +1,52 @@
+
+public class Krish_java {
+
+	public static void main(String[] args) {
+		
+		String str = "sudha reddy kamabalapalli";
+		String temp= " ";
+		System.out.println("Length"+str.length());
+		 System.out.println(str);
+		for(int i=str.length()-1;i>-1;i--)
+		{
+			temp=temp+str.charAt(i);
+			
+			 	
+
+		}
+			// i want print word by word
+		 System.out.println(temp);
+		 
+		 String[] words =str.split(" ");
+		 
+		 for (int k=0;k<=words.length-1;k++) {
+			 
+			 System.out.println("word:"+words[k]);
+			 
+		      }
+     // I want print Replace char "S","r" 
+		 
+		 String strRep = str.replace("s", "r");
+		 
+		 System.out.println("replace word is:"+ strRep);
+		 
+		 
+		 // i want replace all 
+		 
+		 String strRepall = str.replaceAll("u","a" );
+		 
+		 System.out.println("after replace::"+strRepall);
+		 
+		 
+		 
+		 
+		 }
+	
+	
+	
+			
+
+
+	}
+
+

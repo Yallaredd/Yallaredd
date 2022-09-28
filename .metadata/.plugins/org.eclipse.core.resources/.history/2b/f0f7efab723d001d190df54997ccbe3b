@@ -1,0 +1,12 @@
+
+public class Krish_java {
+
+	public static void main(String[] args) {
+		
+		String str = "sudha reddy kamabalapalli";
+		
+		System.out.println("Length"+str.length());
+
+	}
+
+}

@@ -1,0 +1,30 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan=new Scanner(System.in);
+		
+		try{
+		System.out.println("Enter the value");
+		int a=scan.nextInt();
+		
+		System.out.println("Enter the Second value");
+		int b=scan.nextInt();
+		
+		int sum=a/b;
+		System.out.println(sum);
+		}
+		catch(ArithmeticException ex) {
+			System.out.println(ex);
+		}
+			catch(InputMismatchException ex2)
+			{
+				System.out.println(ex2);
+			}
+		}
+	}
+

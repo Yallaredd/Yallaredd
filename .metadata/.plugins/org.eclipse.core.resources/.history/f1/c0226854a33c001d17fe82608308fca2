@@ -1,0 +1,40 @@
+
+public class Static {
+
+	public static void main(String[] args) {
+	
+		
+		String s= "siva sankar reddy";
+
+		
+			System.out.println(s.substring(5,11) );
+		}
+	
+
+	private static void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+
+class
+variable
+method
+object
+Constructor
+super()
+static methods
+instance methods
+abstract methods
+Abstrcation
+Encapsulation
+inheritance 
+polymorphism
+this keyword
+super keyword
+method overloading
+method overriding
+interface
+Runtime polymorphism
+Compiletime polmorphi

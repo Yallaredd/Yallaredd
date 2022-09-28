@@ -1,0 +1,10 @@
+package Selenium_java;
+
+public class Amazon_Bletooth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

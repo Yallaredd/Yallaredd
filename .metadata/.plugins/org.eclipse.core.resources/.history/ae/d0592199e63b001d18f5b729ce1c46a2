@@ -1,0 +1,19 @@
+
+public class Static {
+
+	public static void main(String[] args) {
+	
+		
+		String s= "siva sankar reddy";
+
+		
+			System.out.println(s.substring(5,10) );
+		}
+	
+
+	private static void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

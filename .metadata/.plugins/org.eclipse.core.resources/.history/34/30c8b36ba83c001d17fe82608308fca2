@@ -1,0 +1,33 @@
+class Test
+{
+	Test(double d)
+	{
+		this(10);
+		System.out.println("Double arg parameter");
+	}
+	Test(int n)
+	{	
+		this();
+		System.out.println("int arg parameter");
+	}
+	Test()
+	{
+		this("Arjun");
+		System.out.println("No arg parameter");
+	}
+	
+	Test(String name)
+	{
+		this();
+		System.out.println("String type parameter");
+	}
+}
+public class Constructorloverloaing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Test t =new Test(10.5);
+	}
+
+}

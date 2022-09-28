@@ -1,0 +1,35 @@
+//Grouping or binding or wrapping realted variables and methods  in single container is calle Encapsulation
+
+class Quick
+{
+	//decalrig variable
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	// Add setter and getter 
+	
+	
+}
+
+public class Encapulationpro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Creating object
+		Quick obj=new Quick();
+		
+		//Set the values
+		obj.setName("Arjun");
+		
+		System.out.println(obj.getName());
+	}
+
+}
